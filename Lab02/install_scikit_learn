@@ -1,0 +1,11 @@
+# create new environment
+
+conda create --name ml-lab
+conda activate ml-lab
+conda install jupyterlab
+
+conda install scikit learn
+conda install numpy
+conda install matplotlib
+
+jupyter-lab
